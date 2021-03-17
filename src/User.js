@@ -15,7 +15,7 @@ function User({ id }) {
   if (!user) return null;
   return (
     <div>
-      <h2>{user.username}</h2>
+      <h2>{user.username}님 환영합니다.</h2>
       <p>
         <b>Email:</b> {user.email}
       </p>
